@@ -1,0 +1,203 @@
+﻿Diagnose log at 2025-01-04T13:01:35Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.6.0+3c28096588f549cb46f36b552390514356830abe
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 19044)
+Reading environment variables... OK
+ Variables:
+HOMEPATH=\Users\mergeit
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=DESKTOP-5JATIO7
+GIT_TRACE2_PARENT_SID=666b9341-ad5b-45b1-bfc0-6f5c6b65ff75
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+COLORTERM=truecolor
+ChocolateyLastPathUpdate=133758864041344366
+TMP=C:\Users\mergeit\AppData\Local\Temp
+HOME=C:\Users\mergeit
+PROCESSOR_REVISION=6001
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL
+GIT_ASKPASS=c:\Users\mergeit\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass.sh
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+TEMP=C:\Users\mergeit\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\mergeit\AppData\Local
+MSYSTEM=MINGW64
+TERM=xterm-256color
+ProgramW6432=C:\Program Files
+USERDOMAIN=DESKTOP-5JATIO7
+ProgramFiles(x86)=C:\Program Files (x86)
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\mergeit\bin;C:\Python312\Scripts\;C:\Python312\;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Tencent\微信web开发者工具\dll;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\mergeit\AppData\Local\Microsoft\WindowsApps;C:\Users\mergeit\AppData\Roaming\npm;C:\Users\mergeit\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\mergeit\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand
+TERM_PROGRAM=vscode
+PROCESSOR_LEVEL=23
+PROCESSOR_IDENTIFIER=AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
+TMPDIR=C:\Users\mergeit\AppData\Local\Temp
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+TERM_PROGRAM_VERSION=1.96.2
+VSCODE_GIT_ASKPASS_MAIN=c:\Users\mergeit\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass-main.js
+PSModulePath=C:\Users\mergeit\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+NUMBER_OF_PROCESSORS=16
+FPS_BROWSER_USER_PROFILE_STRING=Default
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+VSCODE_INJECTION=1
+VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-73d8a4823e-sock
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_8416_YTXDTVMPDDVHBHXY
+PLINK_PROTOCOL=ssh
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files (x86)
+ChocolateyInstall=C:\ProgramData\chocolatey
+VSCODE_GIT_ASKPASS_NODE=C:\Users\mergeit\AppData\Local\Programs\Microsoft VS Code\Code.exe
+SystemRoot=C:\Windows
+ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+SESSIONNAME=Console
+CommonProgramW6432=C:\Program Files\Common Files
+LOGONSERVER=\\DESKTOP-5JATIO7
+USERPROFILE=C:\Users\mergeit
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-5JATIO7
+APPDATA=C:\Users\mergeit\AppData\Roaming
+HOMEDRIVE=C:
+USERNAME=mergeit
+PROCESSOR_ARCHITEW6432=AMD64
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+PROCESSOR_ARCHITECTURE=x86
+OS=Windows_NT
+ComSpec=C:\Windows\system32\cmd.exe
+SystemDrive=C:
+windir=C:\Windows
+LANG=en_US.UTF-8
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\mergeit\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\mergeit\AppData\Local\Temp\eb2c46bca20b410bec6802fd'... OK
+Reading from temporary file 'C:\Users\mergeit\AppData\Local\Temp\eb2c46bca20b410bec6802fd'... OK
+Deleting temporary file 'C:\Users\mergeit\AppData\Local\Temp\eb2c46bca20b410bec6802fd'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\mergeit
+UserDataDirectoryPath: C:\Users\mergeit\.gcm
+GetCurrentDirectory(): C:\Users\mergeit\Desktop\action-hugo
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:13468/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.47.0.windows.2'
+Locating current repository...Git repository at 'C:/Users/mergeit/Desktop/action-hugo/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=openssl
+file:C:/Program Files/Git/etc/gitconfig	http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/mergeit/.gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/mergeit/.gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/mergeit/.gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Users/mergeit/.gitconfig	filter.lfs.required=true
+file:C:/Users/mergeit/.gitconfig	user.name=0xsummer
+file:C:/Users/mergeit/.gitconfig	user.email=nfsummer721@gmail.com
+file:C:/Users/mergeit/.gitconfig	core.editor="C:\Users\mergeit\AppData\Local\Programs\Microsoft VS Code\bin\code" --wait
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/0xsummer/action-hugo.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\mergeit\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\mergeit\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: False
+Exception:
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 403 (rate limit exceeded).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at GitHub.GitHubRestApi.<GetMetaInfoAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at GitHub.Diagnostics.GitHubApiDiagnostic.<RunInternalAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at GitCredentialManager.Diagnostics.Diagnostic.<RunAsync>d__6.MoveNext()
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint...
